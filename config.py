@@ -111,8 +111,8 @@ merge_comment = "{}: [drown, swim], all samples, 20f, 10s, wrong posture has bee
 
 
 # Auto training config
-train_data_path = '5_input/input2/equal'
-out_dest = "6_network/net10"
+train_data_path = 'input/input2/equal'
+out_dest = "weights"
 data_info = "{}: The data comes from {}, equal data, [drown, swim], 30 frames, 5 steps".format(out_dest.split("/")[1],
                                                                       "/".join(train_data_path.split("/")[1:]))
 network_name = ["ConvLSTM", "ConvGRU", "BiLSTM", "TCN", "LSTM"]
