@@ -1,2 +1,0 @@
-0: swim
-1: drown
