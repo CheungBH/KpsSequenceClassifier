@@ -1,0 +1,2 @@
+Train Epoch: 1 [160/630 (26%)]	Loss: 0.831245	Steps: 0
+Train Epoch: 1 [320/630 (53%)]	Loss: 1.522233	Steps: 0

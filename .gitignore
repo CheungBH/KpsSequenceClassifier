@@ -1,0 +1,11 @@
+.idea/
+*pycache*
+*data*
+*demo*
+*checkpoint*
+"weight*
+*.pth
+*.pt
+*model*
+*.h5
+

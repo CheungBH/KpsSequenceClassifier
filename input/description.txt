@@ -1,0 +1,4 @@
+Input1: [drown, swim], all samples, 30f, 10s, wrong posture has been deleted
+input2: [drown, swim], all samples, 20f, 10s, wrong posture has been deleted
+input3: [drown, swim], all samples, 30f, 3s, wrong posture has been deleted
+input4: [drown, swim], all samples, 30f, 5s, wrong posture has been deleted
