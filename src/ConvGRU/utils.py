@@ -4,7 +4,7 @@ import numpy as np
 from torch import nn
 import torch.utils.data as data
 from torch.utils.data import DataLoader
-from config import config
+import config
 
 kps = config.kps_num
 frm = config.training_frame

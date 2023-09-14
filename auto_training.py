@@ -40,7 +40,7 @@ if __name__ == '__main__':
 
     res = open(os.path.join(res_dest, "training_result.csv"), "w")
     shutil.copy(os.path.join(src_data_path, "cls.txt"), res_dest)
-    with open(os.path.join("6_network", "description.txt"), "a+") as f:
+    with open(os.path.join("weights", "description.txt"), "a+") as f:
         f.write("\n" + config.data_info)
     res.write("model_name, model_type, epochs, dropout, learning-rate, structure_num, min_train_loss, min_val_loss,"
               "max_val_acc\n")
