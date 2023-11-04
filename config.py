@@ -1,6 +1,6 @@
 import torch
 
-device = "cuda:0"
+device = "cpu"
 print("Using {}".format(device))
 size = (720, 540)
 
@@ -20,6 +20,7 @@ output_height = 80
 output_width = 64
 fast_inference = True
 pose_batch = 80
+data_info = "dasjkdjoias"
 
 pose_backbone = "seresnet101"
 pose_weight = './weights/sppe/duc_se.pth'

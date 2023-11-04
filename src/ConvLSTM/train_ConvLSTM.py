@@ -22,7 +22,8 @@ steps = 0
 
 
 permute = torch.Tensor(np.random.permutation(360).astype(np.float64)).long()
-permute.cuda()
+if device != "cpu":
+    permute.cuda()
 torch.manual_seed(1111)
 
 

@@ -6,6 +6,6 @@
 "weight*
 *.pth
 *.pt
-*model*
 *.h5
-
+weights
+*.DS_Store
